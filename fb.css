@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+.fb {
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    margin-left: 400px;
+}
+#content
+{
+    padding-top: 70px;
+    font-size: 25px;
+}
+
+img {
+    margin-left: -25px;
+    width: 60%;
+}
+
+#box {
+    height: 290px;
+    width: 700px;
+    border: 1px solid black;
+    padding: 20px; /* Add padding for inner content */
+    margin-top: 20px; /* Add some top margin for spacing */
+    margin-right: 400px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box; /* Include padding and border in the input's total width and height */
+}
+
+form button {
+    padding: 10px;
+    background-color: #1877f2; /* Facebook blue color */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #166fe5; /* Darker shade on hover */
+}
+
+#right h2 {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #1877f2; /* Facebook blue color */
+    cursor: pointer;
+}
+#right h2:hover {
+    text-decoration: underline;
+}
+#two
+{
+    margin-left: 60px;
+}
+#one 
+{
+    padding: 10px 10px 10px 10px;
+    padding-left: 60px ;
+    background-color: darkgreen;
+    border-radius: 5%;
+    color: aliceblue;
+    cursor: pointer;
+}
+#one:hover{
+    background-color: green;
+}
